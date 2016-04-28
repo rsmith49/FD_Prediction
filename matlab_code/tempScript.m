@@ -1,0 +1,5 @@
+clear
+%Get_Lineups_For_2002_to_2015
+%Update_Start_Times
+Update_Weather_Data_script
+exit
