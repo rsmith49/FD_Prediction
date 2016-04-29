@@ -72,7 +72,7 @@ try
     if ~isempty(strfind(curs.Data{1},'No Data'))    
         
         % calculating fanduel points
-        fd_points = 3*(r+h+b2+2*b3+3*hr+rbi+2*sb+bb);
+        fd_points = 3*(h+b2+2*b3+3*hr+2*sb+bb)+3.2*r+3.5*rbi;
 
         curs = exec(conn, sprintf(['INSERT INTO player_daily_%d (playerName, '...
             'espnID, `date`, opp, result, ab, r, h, 2B, 3B, HR, RBI, BB, K, '...
