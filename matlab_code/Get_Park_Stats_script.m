@@ -1,7 +1,7 @@
 clear
 
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 
 try
     curs = exec(conn,'select buildYear, stadiumName from stadium_stats;');

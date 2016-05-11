@@ -1,6 +1,6 @@
 clear
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 
 try
    curs = exec(conn,['select distinct dateNum from player_daily_' num2str(year(today('datenum')))]);

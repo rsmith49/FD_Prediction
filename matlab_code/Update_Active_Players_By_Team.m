@@ -1,7 +1,7 @@
 clear
 tic
 
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 
 if ~isempty(conn.Message)
     conn.Message

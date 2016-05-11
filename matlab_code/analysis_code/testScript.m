@@ -1,4 +1,4 @@
-%conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 %year = 2016;
 
 curs = exec(conn,sprintf(['select a.fd_points, b.temp, b.dewPoint, b.percentHumidity, '...

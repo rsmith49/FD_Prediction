@@ -1,6 +1,6 @@
 clear
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 
 try
     curs = exec(conn,'select distinct `Date` from daily_rg_2015_16');

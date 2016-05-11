@@ -1,7 +1,7 @@
 clear
 
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 
 try
 %    curs = exec(conn, ['SELECT playerName, espnID FROM active_players'...

@@ -2,7 +2,7 @@
 clear
 
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 %try
 
     curs = exec(conn, ['select col_0, col_1, col_3, col_6, col_102, col_104, '...

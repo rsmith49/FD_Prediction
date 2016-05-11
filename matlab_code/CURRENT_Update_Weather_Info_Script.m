@@ -1,6 +1,6 @@
 clear
 tic
-conn = database('MLBDaily','root','','VENDOR','MySQL');
+conn = DBConnect();
 todayNum = today('datenum');
 
 try
