@@ -1,4 +1,2 @@
 # FD_Prediction
-Fake (Yu Gi Oh) Dueling Predictions
-
-Dueling Iz Lyfe
+FanDuel predictions (2015) Most files are concerned with scraping web data, using MATLAB
